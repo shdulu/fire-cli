@@ -1,0 +1,16 @@
+{
+  "name": "fire-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "shdulu fire-cli",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "create": "fire create hello --force"
+  },
+  "keywords": [],
+  "author": "dululu",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

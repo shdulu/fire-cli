@@ -5,7 +5,7 @@
   "description": "shdulu fire-cli",
   "workspaces": ["packages/*"],
   "scripts": {
-    "create": "fire create hello --force"
+    "create": "fire create hello"
   },
   "keywords": [],
   "author": "dululu",

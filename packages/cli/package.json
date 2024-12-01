@@ -25,8 +25,17 @@
     "@fire/cli-shared-utils": "file:../cli-shared-utils",
     "commander": "7.1.0",
     "deepmerge": "^4.3.1",
+    "ejs": "3.1.6",
+    "fs-extra": "9.1.0",
+    "globby": "11.0.2",
     "inquirer": "8.0.0",
-    "leven": "3.1.0"
+    "isbinaryfile": "4.0.6",
+    "javascript-stringify": "2.0.1",
+    "leven": "3.1.0",
+    "lodash.clonedeep": "4.5.0",
+    "recast": "0.20.3",
+    "slash": "3.0.0",
+    "validate-npm-package-name": "3.0.0"
   },
   "engines": {
     "node": "^12.0.0 || >= 14.0.0"

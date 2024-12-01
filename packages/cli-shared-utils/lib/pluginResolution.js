@@ -1,6 +1,9 @@
-const pluginRE = /^(@yqb\/|yqb-|@[\w-]+(\.)?[\w-]+\/yqb-)cli-plugin-/;
+const pluginRE = /^(@fire\/|fire-|@[\w-]+(\.)?[\w-]+\/fire-)cli-plugin-/;
+const scopeRE = /^@[\w-]+(\.)?[\w-]+\//;
+const officialRE = /^@fire\//;
+
 exports.isPlugin = (id) => pluginRE.test(id);
 
-exports.toShortPluginId = function (id) {
-  return id.replace(pluginRE, ""); // @yqb/cli-plugin-eslint => eslint
-};
+exports.isOfficialPlugin = (id) => exports.isPlugin(id) && officialRE.test(id);
+
+exports.toShortPluginId = (id) => id.replace(pluginRE, ""); // @fire/cli-plugin-eslint => eslint

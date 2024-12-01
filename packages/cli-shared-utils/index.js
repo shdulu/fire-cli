@@ -2,6 +2,7 @@
   "logger",
   "spinner",
   "module",
+  "npm",
   "pluginResolution",
   "pluginOrder",
   "env",
